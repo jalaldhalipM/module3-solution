@@ -1,0 +1,48 @@
+.navbar-brand h1 span { 
+    vertical-align: middle;
+  }
+   .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: rgb(233, 2, 2);
+  } 
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-toggler {
+    position: relative;
+    justify-content: left;
+    color: red;
+    margin-right: 10px;
+  }
+
+  #menu-tile, #specials-tile, #map-tile {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 5px solid black; /* Added 'solid' to specify the border style */
+    overflow: hidden;
+  }
+  #menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 1.6em;
+    text-align: center;
+    opacity: .8;
+    background-color: #000;
+    color: white;
+  }
+  #menu-tile {
+    /* position: relative;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 5px solid black;
+    overflow: hidden; */
+    background-image: url('images/menu-tile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
